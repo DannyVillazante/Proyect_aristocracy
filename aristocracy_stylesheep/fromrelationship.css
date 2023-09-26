@@ -1,0 +1,64 @@
+:root{
+    --hard: #451952;
+    --hard-medium: #662549;
+    --medium: #AE445A;
+    --basic: #F39F5A;
+    --text_type: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.selector{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--basic);
+}
+.central_buton{
+    border: 2px solid var(--hard);
+    padding: 6px 6px;
+    border-radius: 12px;
+    background-color:var(--hard);
+    color: var(--basic);
+    margin-right: 20px;
+    font-family: var(--text_type);
+}
+.logo{
+    width: 150px;
+    height: 50%;
+    margin-left: 20px;
+}
+.main{
+    background-color: var(--medium);
+    height: 100dvh;
+}
+.search_concept{
+    background-color: var(--hard);
+    border-radius: 12px;
+    width: 80%;
+    margin: 20px auto;
+    height: 80px;
+    text-align: center;
+    border: 2px solid var(--basic);
+}
+.search{
+    border-radius: 12px;
+    height: 30px;
+    outline: none;
+    background-color: var(--hard-medium);
+    border: black;
+    color: var(--basic);
+    font-family: var(--text_type);
+}
+.search_title{
+    color: var(--basic);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
