@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tributos aduaneros</title>
+    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        :root{
+            --hard: #451952;
+            --hard-medium: #662549;
+            --medium: #AE445A;
+            --basic: #F39F5A;
+            --text_type: 'Montserrat', sans-serif;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        main{
+            background-color: var(--medium);
+            height: 100dvh;
+        }
+        .selector{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: var(--basic);
+        }
+        .central_buton{
+            border: 2px solid var(--hard);
+            padding: 6px 6px;
+            border-radius: 12px;
+            background-color: var(--hard);
+            color: var(--basic);
+            margin-right: 20px;
+            font-family: var(--text_type);
+        }
+        .logo{
+            width: 150px;
+            height: 50%;
+            margin-left: 20px;
+        }
+        .search_concept{
+            background-color: var(--medium);
+            border-radius: 12px;
+            width: 80%;
+            margin: 20px auto;
+            height: 80px;
+            text-align: center;
+            border: 2px solid var(--basic);
+        }
+        .search{
+            border-radius: 12px;
+            height: 30px;
+            outline: none;
+            background-color: var(--hard-medium);
+            border: black;
+            color: var(--basic);
+            font-family: var(--text_type);
+        }
+        .search_title{
+            color: var(--basic);
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .content_box{
+            width: 100%;
+            display: flex;
+        }
+        .central_title{
+            color: var(--hard);
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <nav class="selector">
+            <img src="aristocracy_images/logotipo by DALLE.png" alt="" class="logo">
+            <input type="button" class="central_buton" value="Mapa Mental">
+        </nav>
+        <section class="search_concept">
+            <h1 class="search_title">Concept Search</h1>
+            <input type="search" class="search" placeholder="Search">
+        </section>
+        <div class="content_box">
+            <h1 class="central_title">Tributos aduaneros</h1>
+        </div>
+        <div class=""></div>
+    </main>
+</body>
+</html>

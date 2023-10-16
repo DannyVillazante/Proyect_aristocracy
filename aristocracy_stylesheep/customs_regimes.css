@@ -1,0 +1,10 @@
+.division{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+}
+.customs{
+    width: 50%;
+    padding: 40px;
+}

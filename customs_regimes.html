@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification of customs regimes</title>
+    <link rel="stylesheet" href="aristocracy_stylesheep/customs_regimes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        :root{
+            --hard: #451952;
+            --hard-medium: #662549;
+            --medium: #AE445A;
+            --basic: #F39F5A;
+            --text_type: 'Montserrat', sans-serif;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        main{
+            background-color: var(--medium);
+            height: 100%;
+            width: 100dvw;
+        }
+        .selector{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: var(--basic);
+        }
+        .central_buton{
+            border: 2px solid var(--hard);
+            padding: 6px 6px;
+            border-radius: 12px;
+            background-color: var(--hard);
+            color: var(--basic);
+            margin-right: 20px;
+            font-family: var(--text_type);
+        }
+        .logo{
+            width: 150px;
+            height: 50%;
+            margin-left: 20px;
+        }
+        .search_concept{
+            background-color: var(--medium);
+            border-radius: 12px;
+            width: 80%;
+            margin: 20px auto;
+            height: 80px;
+            text-align: center;
+            border: 2px solid var(--basic);
+        }
+        .search{
+            border-radius: 12px;
+            height: 30px;
+            outline: none;
+            background-color: var(--hard-medium);
+            border: black;
+            color: var(--basic);
+            font-family: var(--text_type);
+        }
+        .search_title{
+            color: var(--basic);
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .content_box{
+            width: 100%;
+            display: flex;
+        }
+        .central_title{
+            color: var(--hard);
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <nav class="selector">
+            <img src="aristocracy_images/logotipo by DALLE.png" alt="" class="logo">
+            <input type="button" class="central_buton" value="Mapa Mental">
+        </nav>
+        <section class="search_concept">
+            <h1 class="search_title">Concept Search</h1>
+            <input type="search" class="search" placeholder="Search">
+        </section>
+        <div class="content_box">
+            <h1 class="central_title">Classification of customs regimes</h1>
+        </div>
+        <section class="division">
+            <ol class="definitivos customs">
+                <h1>Definitivos</h1>
+                <li>Importacion para el consumo</li>
+                <li>Exportacion definitiva</li>
+                <h1>Suspensivos</h1>
+                <li>Admision temporal para el perfeccionamiento activo (RITEX)</li>
+                <li>Admision temporal para reexportacion de mercancias en el mismo estado</li>
+                <li>Exportacion temporal para el perfeccionamiento pasivo</li>
+                <li>Exportacion temporal para reimportacion al mismo estado<</li>
+                <li>Transito aduanero</li>
+                <li>Tranbordo</li>
+                <li>Deposito de aduana</li>
+            </ol>
+            <ol class="especial customs">
+                <h1>Especial y de exoneracion</h1>
+                <li>Admision de mercancias con exoneracion de tributos aduaneros</li>
+                <li>Regimen de reposicion de mercancias en franquicia arancelaria</li>
+                <li>Devolucion de gravamen arancelario Draw Back</li>
+                <li>Regimen viajero</li>
+                <li>Menaje domestico</li>
+                <li>Envios de paquetes postales y de correspondencia</li>
+                <li>Ingreso y salida de documentos "Currier"</li>
+                <li>Cabotaje</li>
+                <li>Tiendas libre de tributos Duty Free Shop</li>
+                <li>Ferias internacionales</li>
+                <li>Muestras</li>
+                <li>Consolidacion y desconsolidacion de carga internacional</li>
+                <li>Material para uso aeronautico</li>
+                <li>Trafico fronterizo</li>
+                <li>Efectos personales de miembros de la tripulacion</li>
+                <li>Vehiculo de turismo</li>
+                <li>Bienes de uso militar y material belico</li>
+                <li>Material monetario</li>
+                <li>El equipamiento destinados a las instituciones publicas y de salud</li>
+                <li>Los materiales y suministros para fines de investigacion cientifica y tecnologia</li>
+                <li>Zona franca</li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
