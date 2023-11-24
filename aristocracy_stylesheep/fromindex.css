@@ -66,7 +66,6 @@ body{
     border: 2px solid var(--medium);
     border-radius: 12px;
     width: 80%;
-    height: 200px;
     margin: auto;
     color: var(--basic);
 }
